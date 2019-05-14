@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+.checkbox {
+  margin-top: 20px;
+}
+
+.details-box {
+  padding: 15px;
+  background-color: #f2f2f2;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}

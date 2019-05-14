@@ -1,0 +1,16 @@
+<div class="title">
+  <h1><%= @task.title %></h1>
+  <div class="btn btn-light mt-2 border">
+    <%= link_to edit_path do%>
+    <p><i class="fas fa-pencil-alt"></i> Edit task</p>
+    <% end %>
+  </div>
+</div>
+
+<div class="rounded border btn-light details-box">
+  <p>Details: <%= @task.details %></p>
+</div>
+<div class="checkbox">
+  <%= link_to "Back to the list", tasks_path %>
+</div>
+
